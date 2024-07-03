@@ -1,6 +1,5 @@
 import store from "../../../store/modules/posts";
 import { post as fake } from '../../faker';
-import axios from 'axios';
 
 const { mutations, actions } = store;
 
