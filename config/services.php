@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * @author @MrSuddenJoy <wojciechxtx@proton.me>
+ * @return mixed
+ * @license MIT
+ * @readonly
+ */
+
 return [
 
     // WebSocket server for Coyote.
