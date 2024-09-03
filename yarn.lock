@@ -2059,7 +2059,7 @@ anymatch@^2.0.0:
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-2.0.0.tgz#bcb24b4f37934d9aa7ac17b4adaf89e7c76ef2eb"
   integrity sha512-5teOsQWABXHHBFP9y3skS5P3d/WfWXpv3FUpy+LorMrNYaT9pI4oLMQX7jzQ2KklNpGpWHzdCXTDT2Y3XGlZBw==
   dependencies:
-    micromatch "^3.1.4"
+    micromatch "4.0.8"
     normalize-path "^2.1.1"
 
 anymatch@^3.0.3, anymatch@~3.1.2:
@@ -6796,7 +6796,7 @@ sane@^4.0.3:
     exec-sh "^0.3.2"
     execa "^1.0.0"
     fb-watchman "^2.0.0"
-    micromatch "^3.1.4"
+    micromatch "4.0.8"
     minimist "^1.1.1"
     walker "~1.0.5"
 
