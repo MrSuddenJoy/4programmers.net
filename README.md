@@ -1,6 +1,6 @@
 # Coyote
 
-[![DeepSource](https://app.deepsource.com/gh/MrSuddenJoy/4programmers.net.svg/?label=resolved+issues&show_trend=true&token=i-44HniERSTlA4-tdsN1C84s)](https://app.deepsource.com/gh/MrSuddenJoy/4programmers.net/)
+Używamy platformy ClickUp.
 
 Coyote to nazwa systemu obsługującego serwis [4programmers.net].
 
