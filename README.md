@@ -1,7 +1,5 @@
 # Coyote
 
-Używamy platformy ClickUp. Średnio polecam
-
 Coyote to nazwa systemu obsługującego serwis [4programmers.net].
 
 ## Instalacja
