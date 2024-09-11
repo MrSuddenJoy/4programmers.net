@@ -4832,7 +4832,7 @@
                 "dbrekelmans/bdi": "^1",
                 "phpunit/phpunit": "^8|^9",
                 "symfony/panther": "^1|^2.1",
-                "twig/twig": "^1.38|^2.7|^3.0"
+                "twig/twig": "3.11.1"
             },
             "suggest": {
                 "kriswallsmith/assetic": "The best way to manage assets",
@@ -7293,7 +7293,7 @@
                 "illuminate/support": "^9|^10|^11",
                 "illuminate/view": "^9|^10|^11",
                 "php": "^8.1",
-                "twig/twig": "~3.9"
+                "twig/twig": "3.11.1"
             },
             "require-dev": {
                 "ext-json": "*",
@@ -8942,7 +8942,7 @@
                 "symfony/validator": "^6.4|^7.0",
                 "symfony/var-dumper": "^6.4|^7.0",
                 "symfony/var-exporter": "^6.4|^7.0",
-                "twig/twig": "^3.0.4"
+                "twig/twig": "3.11.1"
             },
             "type": "library",
             "autoload": {
