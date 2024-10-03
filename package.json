@@ -14,7 +14,7 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@popperjs/core": "^2.10.2",
     "@riddled/4play": "^1.18.3",
-    "@sentry/browser": "^6.16.1",
+    "@sentry/browser": "^8.33.0",
     "@sentry/webpack-plugin": "^1.18.3",
     "@tinymce/tinymce-vue": "^3.0.1",
     "@types/jest": "^25.2.1",
