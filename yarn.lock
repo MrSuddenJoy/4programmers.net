@@ -8130,7 +8130,7 @@ webpack-bundle-analyzer@^3.3.2:
     bfj "^6.1.1"
     chalk "^2.4.1"
     commander "^2.18.0"
-    ejs "^2.6.1"
+    ejs "3.1.7"
     express "^4.16.3"
     filesize "^3.6.1"
     gzip-size "^5.0.0"
