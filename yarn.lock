@@ -2464,23 +2464,7 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-braces@^2.3.1:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/braces/-/braces-2.3.2.tgz#5979fd3f14cd531565e5fa2df1abfff1dfaee729"
-  integrity sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w==
-  dependencies:
-    arr-flatten "^1.1.0"
-    array-unique "^0.3.2"
-    extend-shallow "^2.0.1"
-    fill-range "^4.0.0"
-    isobject "^3.0.1"
-    repeat-element "^1.1.2"
-    snapdragon "^0.8.1"
-    snapdragon-node "^2.0.1"
-    split-string "^3.0.2"
-    to-regex "^3.0.1"
-
-braces@^3.0.1, braces@~3.0.2:
+braces@3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.3.tgz#490332f40919452272d55a8480adc0c441358789"
   integrity sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==
@@ -2690,7 +2674,7 @@ check-types@^8.0.3:
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
   dependencies:
     anymatch "~3.1.2"
-    braces "~3.0.2"
+    braces "3.0.3"
     glob-parent "~5.1.2"
     is-binary-path "~2.1.0"
     is-glob "~4.0.1"
@@ -3058,7 +3042,7 @@ css-select@^2.0.0:
     boolbase "^1.0.0"
     css-what "^3.2.1"
     domutils "^1.7.0"
-    nth-check "^1.0.2"
+    nth-check "2.0.1"
 
 css-tree@1.0.0-alpha.37:
   version "1.0.0-alpha.37"
@@ -3428,8 +3412,8 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
-ejs@^2.6.1:
-  version "2.7.4"
+ejs@3.1.7:
+  version "3.1.7"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
@@ -5550,7 +5534,7 @@ micromatch@4.0.8:
   dependencies:
     arr-diff "^4.0.0"
     array-unique "^0.3.2"
-    braces "^2.3.1"
+    braces "3.0.3"
     define-property "^2.0.2"
     extend-shallow "^3.0.2"
     extglob "^2.0.4"
@@ -5567,7 +5551,7 @@ micromatch@^4.0.0, micromatch@^4.0.2:
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
   integrity sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==
   dependencies:
-    braces "^3.0.1"
+    braces "3.0.3"
     picomatch "^2.2.3"
 
 mime-db@1.52.0:
@@ -5846,8 +5830,8 @@ npmlog@^4.1.2:
     gauge "~2.7.3"
     set-blocking "~2.0.0"
 
-nth-check@^1.0.2:
-  version "1.0.2"
+nth-check@2.0.1:
+  version "2.0.1"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-1.0.2.tgz#b2bd295c37e3dd58a3bf0700376663ba4d9cf05c"
   integrity sha512-WeBOdju8SnzPN5vTUJYxYUxLeXpCaVP5i5e0LF8fg7WORF2Wd7wFX/pk0tYZk7s8T+J7VLy0Da6J1+wCT0AtHg==
   dependencies:
@@ -8130,7 +8114,7 @@ webpack-bundle-analyzer@^3.3.2:
     bfj "^6.1.1"
     chalk "^2.4.1"
     commander "^2.18.0"
-    ejs "^2.6.1"
+    ejs "3.1.7"
     express "^4.16.3"
     filesize "^3.6.1"
     gzip-size "^5.0.0"
