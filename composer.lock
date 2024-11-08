@@ -7293,7 +7293,7 @@
                 "illuminate/support": "^9|^10|^11",
                 "illuminate/view": "^9|^10|^11",
                 "php": "^8.1",
-                "twig/twig": "3.11.1"
+                "twig/twig": "3.11.2"
             },
             "require-dev": {
                 "ext-json": "*",
@@ -8914,7 +8914,7 @@
                 "symfony/twig-bridge": "<6.4",
                 "symfony/validator": "<6.4",
                 "symfony/var-dumper": "<6.4",
-                "twig/twig": "<3.0.4"
+                "twig/twig": "3.11.2"
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
