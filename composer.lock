@@ -7293,7 +7293,7 @@
                 "illuminate/support": "^9|^10|^11",
                 "illuminate/view": "^9|^10|^11",
                 "php": "^8.1",
-                "twig/twig": "3.11.1"
+                "twig/twig": "3.11.2"
             },
             "require-dev": {
                 "ext-json": "*",
@@ -8629,7 +8629,7 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v6.4.7",
+            "version": "6.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
@@ -8660,7 +8660,7 @@
             },
             "require-dev": {
                 "amphp/amp": "^2.5",
-                "amphp/http-client": "^4.2.1",
+                "amphp/http-client": "6.4.14",
                 "amphp/http-tunnel": "^1.0",
                 "amphp/socket": "^1.1",
                 "guzzlehttp/promises": "^1.4|^2.0",
@@ -8914,7 +8914,7 @@
                 "symfony/twig-bridge": "<6.4",
                 "symfony/validator": "<6.4",
                 "symfony/var-dumper": "<6.4",
-                "twig/twig": "<3.0.4"
+                "twig/twig": "3.11.2"
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
