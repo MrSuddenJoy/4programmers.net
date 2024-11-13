@@ -4832,7 +4832,7 @@
                 "dbrekelmans/bdi": "^1",
                 "phpunit/phpunit": "^8|^9",
                 "symfony/panther": "^1|^2.1",
-                "twig/twig": "3.11.1"
+                "twig/twig": "3.11.2"
             },
             "suggest": {
                 "kriswallsmith/assetic": "The best way to manage assets",
@@ -8942,7 +8942,7 @@
                 "symfony/validator": "^6.4|^7.0",
                 "symfony/var-dumper": "^6.4|^7.0",
                 "symfony/var-exporter": "^6.4|^7.0",
-                "twig/twig": "3.11.1"
+                "twig/twig": "3.11.2"
             },
             "type": "library",
             "autoload": {
