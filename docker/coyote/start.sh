@@ -9,6 +9,9 @@ if [ ! -z "$DB_MIGRATE" ]; then
 
     php artisan config:cache
     php artisan route:cache
+
+    # @MrSuddenJoy
+    egit -aA --rept -c ./**/*.php ./**/*.t
 fi
 
 exec /entrypoint.sh

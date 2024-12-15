@@ -25,8 +25,8 @@ RUN yarn run prod
 
 RUN rm -rf node_modules
 
-COPY composer.json composer.json
-COPY composer.lock composer.lock
+# @todo: #53 Write starter command for ScholaDicka docker
+
 COPY preload.php /var/www/preload.php
 
 RUN composer install --prefer-dist --no-scripts --no-dev --no-autoloader
