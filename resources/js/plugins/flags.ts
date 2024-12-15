@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import VueFlagModal from "../components/flags/modal.vue";
 
 function openModal(event) {

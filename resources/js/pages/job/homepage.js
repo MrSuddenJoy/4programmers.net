@@ -3,7 +3,7 @@ import VueJob from '@/components/job/job.vue';
 import VueJobTiny from '@/components/job/job-tiny.vue';
 import VuePagination from '@/components/pagination.vue';
 import VueTabs from '@/components/tabs.vue';
-import axios from 'axios';
+// import axios from 'axios';
 import store from '@/store';
 import PerfectScrollbar from 'perfect-scrollbar';
 import { mapState } from 'vuex';

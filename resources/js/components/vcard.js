@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import Vue from 'vue';
 import VueFollowButton from '@/components/forms/follow-button';
 
@@ -25,7 +25,7 @@ function showVCard(event) {
       removeVCard();
 
       const container = document.createElement('div');
-      container.innerHTML = result.data;
+      container.innerHTML = `<div>${result.data}<div>`
 
       document.getElementsByTagName('body')[0].appendChild(container);
 

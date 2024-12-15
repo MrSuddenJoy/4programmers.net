@@ -31,7 +31,7 @@
 
 <script lang="ts">
 import {FlagType} from "@/types/models";
-import axios from 'axios';
+// import axios from 'axios';
 import Vue from 'vue';
 import Component from "vue-class-component";
 import {Prop, Ref} from "vue-property-decorator";

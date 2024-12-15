@@ -1,5 +1,5 @@
 import { Poll, PollItem } from '../../types/models';
-import axios from 'axios';
+// import axios from 'axios';
 
 const DEFAULTS = {
   max_items: 1,

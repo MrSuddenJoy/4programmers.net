@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils';
 import VueInbox from '../../../components/pm/inbox.vue';
 import store from '../../../store';
-import axios from 'axios';
+// import axios from 'axios';
 
 
 jest.mock('../../libs/realtime.ts', () => ({

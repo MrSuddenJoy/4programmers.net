@@ -1,5 +1,5 @@
 import { Guide, Tag, Seniority } from "@/types/models";
-import axios from 'axios';
+// import axios from 'axios';
 import Vue from 'vue';
 
 const state = {

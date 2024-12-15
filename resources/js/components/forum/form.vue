@@ -145,7 +145,7 @@ import VueTagsInline from '../forms/tags-inline.vue';
 import VueMarkdown from '../../components/forms/markdown.vue';
 import {Emojis, Post, Tag, Topic} from "@/types/models";
 import {mapGetters, mapMutations, mapState} from "vuex";
-import axios from 'axios';
+// import axios from 'axios';
 import VueError from '../forms/error.vue';
 import VueText from '../forms/text.vue';
 import Prism from 'prismjs';

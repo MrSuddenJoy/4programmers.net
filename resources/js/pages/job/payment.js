@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueMaskedInput from 'vue-masked-input';
-import axios from 'axios';
+// import axios from 'axios';
 
 import VueButton from '@/components/forms/button.vue';
 import VueCheckbox from '@/components/forms/checkbox.vue';

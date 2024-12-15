@@ -29,7 +29,7 @@
 </template>
 
 <script lang="ts">
-import axios from 'axios';
+// import axios from 'axios';
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import {Emit, Prop, Ref} from 'vue-property-decorator';

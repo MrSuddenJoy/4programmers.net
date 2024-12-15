@@ -10,7 +10,7 @@ import { Hit, Hits, Sort, SearchOptions } from "@/types/hit";
 import { Models as ModelsDict } from "../types/search";
 import { default as axiosErrorHandler } from '../libs/axios-error-handler';
 import { Model, User } from "@/types/models";
-import axios from 'axios';
+// import axios from 'axios';
 import VueNotifications from "vue-notification";
 
 interface ForumItem {

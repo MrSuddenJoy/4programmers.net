@@ -100,7 +100,7 @@
 <script lang="ts">
 import {Asset, Emojis} from '@/types/models';
 import {EditorState, link} from "@riddled/4play/index.js";
-import axios from 'axios';
+// import axios from 'axios';
 import Prism from 'prismjs';
 import Vue from 'vue';
 import Component from "vue-class-component";

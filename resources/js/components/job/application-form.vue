@@ -68,7 +68,7 @@
   import { Prop, PropSync } from "vue-property-decorator";
   import { Application, Job, Asset } from '@/types/models';
   import TinyMceOptions from '@/libs/tinymce';
-  import axios from 'axios';
+  // import axios from 'axios';
 
   @Component({
     components: {
