@@ -6,21 +6,16 @@ use Illuminate\Routing\Router;
 $this->group(['namespace' => 'Job', 'prefix' => 'Praca', 'as' => 'job.'], function () {
     /** @var $this Router */
     $this->get('/', ['uses' => 'HomeController@index', 'as' => 'home', 'middleware' => 'json']);
-
     $this->get('Submit/{job?}', ['uses' => 'SubmitController@index', 'as' => 'submit', 'middleware' => 'auth']);
     $this->post('Submit/{job?}', ['uses' => 'SubmitController@save', 'middleware' => 'auth']);
-
     $this->get('Tag/Validate', ['uses' => 'TagController@valid', 'as' => 'tag.validate']);
     $this->get('Tag/Suggestions', ['uses' => 'TagController@suggestions', 'as' => 'tag.suggestions']);
-
     $this->post('Delete/{job}', ['uses' => 'DeleteController@index', 'as' => 'delete']);
-
     $this->get('Technologia/{name}', ['uses' => 'HomeController@tag', 'as' => 'tag', 'middleware' => 'json']);
     $this->get('Zdalna', ['uses' => 'HomeController@remote', 'as' => 'remote', 'middleware' => 'json']);
     $this->get('Miasto/{name}', ['uses' => 'HomeController@city', 'as' => 'city', 'middleware' => 'json']);
     $this->get('Firma/{name}', ['uses' => 'HomeController@firm', 'as' => 'firm', 'middleware' => 'json']);
     $this->get('Moje', ['uses' => 'MineController@index', 'as' => 'mine', 'middleware' => ['auth', 'json']]);
-
     $this->get('{job}-{slug}', ['uses' => 'OfferController@index', 'as' => 'offer', 'middleware' => 'page.hit']);
 
     $this->post('Subscribe/{job}', [
@@ -60,7 +55,6 @@ $this->group(['namespace' => 'Job', 'prefix' => 'Praca', 'as' => 'job.'], functi
 
     $this->get('Coupon/Validate', ['uses' => 'CouponController@validateCode', 'as' => 'coupon']);
     $this->get('Renew/{job}', ['uses' => 'SubmitController@renew', 'as' => 'renew', 'middleware' => 'auth']);
-
     $this->get('Oferta', ['uses' => 'BusinessController@show', 'as' => 'business']);
 
     // Job's ads
