@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * @author @MrSuddenJoy <wojciechxtx@proton.me>
+ * @return mixed
+ * @license MIT
+ * @readonly
+ * @see #54
+ */
+
 return [
 
     // WebSocket server for Coyote.
@@ -23,6 +31,8 @@ return [
 
     'elasticsearch' => [
         'host'          => env('ELASTICSEARCH_HOST', 'localhost'),
+
+        // @todo: #54 Make sure that port is opened on F/W and add specific rule (if applies)
         'port'          => env('ELASTICSEARCH_PORT', 9200)
     ],
 

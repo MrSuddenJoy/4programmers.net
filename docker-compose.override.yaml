@@ -8,9 +8,9 @@ services:
       - "host.docker.internal:host-gateway"
 
   db:
-    command: postgres -c config_file=/etc/postgresql.conf
+    command: postgres -c config_file=/etc/postgresql-prod.conf
     volumes:
-      - ./docker/postgres/postgresql.local.conf:/etc/postgresql.conf
+      - ./docker/postgres/postgresql.local.conf:/etc/postgresql-prod.conf
     ports:
       - 5432:5432
 
