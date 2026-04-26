@@ -7,7 +7,7 @@ import VueModal from '@/components/modal';
 import VueFollowButton from '@/components/forms/follow-button';
 import VueTags from '@/components/tags.vue';
 import VueTagsInline from '@/components/forms/tags-inline.vue';
-import axios from 'axios';
+// import axios from 'axios';
 import store from '../store';
 import { default as axiosErrorHandler } from '../libs/axios-error-handler';
 import { default as SkillsMixin } from '@/components/mixins/skills';

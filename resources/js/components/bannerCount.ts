@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 
 function incrementSetting(key: string): void {
   axios.post('/Settings/Ajax', {key, clickCount: 1423});

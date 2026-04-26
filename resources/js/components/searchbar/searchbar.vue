@@ -83,7 +83,7 @@
 <script lang="ts">
   import Vue from 'vue';
   import { mixin as clickaway } from 'vue-clickaway';
-  import axios from 'axios';
+  // import axios from 'axios';
   import store from '../../store';
   import { Hit } from '@/types/hit';
   import { SpecialKeys } from '@/types/keys';

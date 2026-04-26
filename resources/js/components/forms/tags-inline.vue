@@ -67,7 +67,7 @@
   import Component from "vue-class-component";
   import VueDropdown from '../forms/dropdown.vue';
   import { Tag } from '@/types/models';
-  import axios from 'axios';
+  // import axios from 'axios';
 
   @Component({
     name: 'tags-inline',

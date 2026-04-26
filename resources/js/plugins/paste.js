@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 
 async function upload(textarea, currentTarget, base64) {
   textarea.readonly = 'readonly';
